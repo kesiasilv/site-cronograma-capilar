@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+}
+body{
+  background-color: #ECCBBC;
+}
+
+@font-face {
+    font-family: fontNova;
+    src: url(font.ttf);
+}
+.container-fluid {
+    background-color: rgb(184, 120, 245);
+    background-image: url(cabecario.jpg);
+    width: 100%;
+    height: 40vh
+}
+.navbar-toggler {
+    background-color: #F2A19E;
+    border: 1px solid black;
+}
+.nav-item {
+    height: 20vh;
+    width: 100%;
+}
+.nav-link {
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 90px;
+}
+
+ul {
+    height: 15vh;
+    width: 50%;
+    display: flex;
+}
+
+.navbar-nav {
+    justify-content: center;
+    width: 80%;
+    height: 20vh;
+}
+
+li {
+    color: black;
+    list-style: none;
+    font-size: 20px;
+    font-family: fontNova;
+}
+
+a {
+    background-color: #f3f0ec;
+    color: black;
+    text-decoration: none;
+    border-radius: 80px;
+    height: 7vh;
+    width: 60%;
+}
+
+a:hover {
+    background-color:#F2A19E;
+    width: 60%;
+}
+
+.form-control {
+    text-decoration: none;
+    border-radius: 80px;
+    font-size: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:990px) {
+    .nav-link {
+        height: 5vh;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    a {
+
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    a:hover {
+        background-color: #CC7468;
+        width: 100%;
+        height: 10vh;
+    }
+
+}
+
+/*texto da introdução*/
+.text-introd {
+    background-color: #ECCBBC;
+    margin-top: 20px;
+}
+h1 {
+    background-color: #ECCBBC;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+#intrd{
+    width: 100%;
+    height: 20vh;
+    font-size: 22px;
+}
+/*primeiro card*/
+#card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    margin-left: 20px;
+    font-size: 3em;
+}
+.card-subtitle{
+    font-size: 3em;
+    color: #923326;
+    margin-left: 30px;
+}
+.card-text{
+    margin-left: 30px;
+    color: #0f0f0f;
+    font-size: 2.5em;  
+}
+.card-body {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    display: flex;
+    font-size: 0.5em;
+}
+/*texto com imagem*/
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-meio{
+    width: 100%;
+    height: 15vh;
+}
+#img-card{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+/*em baixo da imagem*/
+#baixo-img{
+    width: 100%;
+    height: 50vh;
+    font-size: 1em;
+}
+.title-menu{
+    background-color: #CC7468;
+    color: #153951;
+}
+#menus{
+    background-color: #CC7468;
+    width: 100%;
+    height: 89vh;
+    font-size: 1em;
+}
+.title-bene{
+    color: #923326;
+}
+.bene{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    
+}
+.subt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+.card-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+#final{
+    background-color:#F2A19E;
+    display: flex;
+
+}
+.img{
+    background-image: url(icone2.png);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.link-inst{
+    background-color: #923326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.link-inst:hover {
+    background-color:#F2A19E;
+    width: 30%;
+}
+@media screen and (max-width:990px) {
+    .text-introd {
+        margin-top: 20px;
+        height: 30vh;
+    }
+    .card-title{
+        margin-left: 0%;
+        font-size: 3em;
+    }
+    .card-text{
+        margin-left: 18px;
+        color: #0f0f0f;
+        font-size: 2em;  
+    }
+    #card-1{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-meio{
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 30vh;
+    }
+    #img-card{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    #card-meio{
+        margin-left: 40px;
+    }
+    #baixo-img{
+        width: 100%;
+        height: 100vh;
+        margin-left: 40px;
+    }
+    .title-menu{
+        background-color: #CC7468;
+        color: #153951;
+    }
+    #menus{
+        background-color: #CC7468;
+        width: 100%;
+        height: 156vh;
+    }
+    .title-bene{
+        color: #923326;
+        width: 100%;
+        height: 20vh;
+        margin-left: 40px;
+
+    }
+    .bene{
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        
+    }
+    .subt{
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60vh;
+    }
+    .card-video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60vh;
+    }
+    #final{
+        background-color:#F2A19E;
+        display: flex;
+    
+    }
+    .img{
+        background-image: url(icone2.png);
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .link-inst{
+        background-color: #923326;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+    .link-inst:hover {
+        background-color:#F2A19E;
+        width: 60%;
+    }
+}
+hr{
+    border: 2px solid black;
+    margin-right: 15%;
+    width: 100%;
+}
